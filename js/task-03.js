@@ -1,3 +1,4 @@
+'use strict';
 const nameOutput = document.getElementById(`name-output`);
 document.getElementById(`name-input`).addEventListener(`input`, event => {
   let name = event.currentTarget.value.trim();
