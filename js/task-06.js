@@ -33,6 +33,7 @@ function createBoxes(amount) {
   divBoxes.insertAdjacentHTML('beforeend', string);
   boxQuantity = 0;
 }
+
 function destroyButton() {
   inputNamber.value = ``;
   divBoxes.innerHTML = ``;
